@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Sparkles } from "lucide-react";
+export const runtime = "edge";
 
 export default function Home() {
   const router = useRouter();
